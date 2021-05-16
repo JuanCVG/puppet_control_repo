@@ -1,5 +1,5 @@
 node default {
-  file { '/root/README':
+  file { '/root/etc/puppetlabs/code/environments/production/README':
     ensure => file,
     content => 'This is a readme',
     owner   => 'root',
